@@ -1,0 +1,7 @@
+  - name: Play Web - Create apache directories and username in web servers
+    hosts: localhost
+    become: yes
+    tasks:
+      - name: create username apacheadm
+        shell: ls
+          
